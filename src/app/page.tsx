@@ -1,3 +1,4 @@
+import About from "./components/about/page";
 import Banner from "./components/bannner/page";
 import Hero from "./components/hero/page";
 import Package from "./components/package/page";
@@ -10,6 +11,7 @@ export default function Home() {
       <Statistic />
       <Banner />
       <Package />
+      <About />
     </main>
   );
 }

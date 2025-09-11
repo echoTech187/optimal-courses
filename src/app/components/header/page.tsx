@@ -30,7 +30,7 @@ export default function Header() {
                     <button className="py-2 px-4 rounded-md transition-colors">
                         Daftar
                     </button>
-                    <button className="py-2 px-4 rounded-md transition-colors border border-white hover:bg-white hover:text-blue-600 ">
+                    <button className={`py-2 px-4 rounded-md transition-colors border ${isVisible ? 'border-blue-400 text-blue-400' : 'border-white text-white'} hover:bg-white hover:text-blue-600`}>
                         Masuk
                     </button>
                 </div>
