@@ -21,7 +21,7 @@ export default function Header() {
         };
     }, [isVisible]);
     return (
-        <header className={`fixed top-0 left-0 z-50 w-full  py-4   transition-all ${isVisible ? 'bg-white  border-b border-black/5' : 'bg-white/5 backdrop-blur-md text-white border-b border-white/10'}`}>
+        <header className={`fixed top-0 left-0 z-50 w-full  py-4   transition-all ${isVisible ? 'bg-white/90 backdrop-blur-md border-b border-black/5' : 'bg-white/5 backdrop-blur-md text-white border-b border-white/10'}`}>
             <div className="flex items-center justify-between w-full max-w-[1300px] mx-auto px-4 2xl:px-0">
                 <Brand isVisible={isVisible} />
                 <MenuNavigation isVisible={isVisible}/>
