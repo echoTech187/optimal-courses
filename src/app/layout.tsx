@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Header from "./components/header/page";
+import Footer from "./components/footer/page";
 import "./globals.css";
+import FlyonuiScript from "./components/FlyonuiScript";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,12 +25,18 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  
   return (
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <Header />
+        <div className="relative h-full w-full overflow-x-hidden overflow-y-auto">
+          {children}
+        </div>
+        <Footer />
+        <FlyonuiScript />
       </body>
     </html>
   );

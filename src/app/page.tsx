@@ -1,8 +1,15 @@
-import Image from "next/image";
-
+import Banner from "./components/bannner/page";
+import Hero from "./components/hero/page";
+import Package from "./components/package/page";
+import Statistic from "./components/statistic/page";
 export default function Home() {
+  
   return (
-    <main>
+    <main className="h-full w-full">
+      <Hero />
+      <Statistic />
+      <Banner />
+      <Package />
     </main>
   );
 }
