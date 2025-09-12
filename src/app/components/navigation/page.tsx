@@ -6,26 +6,26 @@ export default function MenuNavigation({isVisible}: {isVisible?: boolean}) {
             <div className="hidden md:block">
                 <nav>
                     <ul className={`flex items-center justify-center gap-4 font-normal ${isVisible ? 'text-black' : 'text-white'}`}>
-                        <li className={`relative hover:rounded-md ${isVisible ? 'hover:text-blue-700' : 'hover:bg-blue-600/30 hover:text-white'}  px-4 py-2 cursor-pointer transition-colors`}>
-                            <a href="#">Layanan</a>
+                        <li className={`relative hover:rounded-md ${isVisible ? 'hover:text-purple-700' : 'hover:bg-purple-900/70 hover:text-white'}  px-4 py-2 cursor-pointer transition-colors`}>
+                            <a href="#services">Layanan</a>
                         </li>
-                        <li className={`relative hover:rounded-md ${isVisible ? 'hover:text-blue-700' : 'hover:bg-blue-600/30 hover:text-white'}  px-4 py-2 cursor-pointer transition-colors`}>
-                            <a href="#">Tentang</a>
+                        <li className={`relative hover:rounded-md ${isVisible ? 'hover:text-purple-700' : 'hover:bg-purple-900/70 hover:text-white'}  px-4 py-2 cursor-pointer transition-colors`}>
+                            <a href="#about">Tentang</a>
                         </li>
-                        <li className={`relative hover:rounded-md ${isVisible ? 'hover:text-blue-700' : 'hover:bg-blue-600/30 hover:text-white'}  px-4 py-2 cursor-pointer transition-colors`}>
-                            <a href="#">Ulasan</a>
+                        <li className={`relative hover:rounded-md ${isVisible ? 'hover:text-purple-700' : 'hover:bg-purple-900/70 hover:text-white'}  px-4 py-2 cursor-pointer transition-colors`}>
+                            <a href="#reviews">Ulasan</a>
                         </li>
-                        <li className={`relative hover:rounded-md ${isVisible ? 'hover:text-blue-700' : 'hover:bg-blue-600/30 hover:text-white'}  px-4 py-2 cursor-pointer transition-colors`}>
-                            <a href="#">Artikel</a>
+                        <li className={`relative hover:rounded-md ${isVisible ? 'hover:text-purple-700' : 'hover:bg-purple-900/70 hover:text-white'}  px-4 py-2 cursor-pointer transition-colors`}>
+                            <a href="#articles">Artikel</a>
                         </li>
-                        <li className={`relative hover:rounded-md ${isVisible ? 'hover:text-blue-700' : 'hover:bg-blue-600/30 hover:text-white'}  px-4 py-2 cursor-pointer transition-colors`}>
-                            <a href="#">FAQ</a>
+                        <li className={`relative hover:rounded-md ${isVisible ? 'hover:text-purple-700' : 'hover:bg-purple-900/70 hover:text-white'}  px-4 py-2 cursor-pointer transition-colors`}>
+                            <a href="#faqs">FAQ</a>
                         </li>
                     </ul>
                 </nav>
             </div>
             <div className="md:hidden">
-                <button className="p-2 rounded-md hover:bg-blue-600/30 transition-colors">
+                <button className="p-2 rounded-md hover:bg-purple-600/30 transition-colors">
                     <Icon icon="mdi:menu" className={`${isVisible ? 'text-black' : 'text-white'}`} width="24" height="24" />
                 </button>
             </div>
