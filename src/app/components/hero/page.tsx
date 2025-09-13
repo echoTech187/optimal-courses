@@ -15,7 +15,7 @@ export default function Header() {
                             <span className="inline-block text-white py-1 text-sm rounded-full before:content-['✓'] before:p-1 before:w-5 before:h-5 before:rounded-full before:text-center before:inline-block before:bg-purple-900 before:font-fontawesome before:mr-2 before:text-xs">Banyak Pilihan Paket</span>
                             <span className="inline-block text-white py-1 text-sm rounded-full before:content-['✓'] before:p-1 before:w-5 before:h-5 before:rounded-full before:text-center before:inline-block before:bg-purple-900 before:font-fontawesome before:mr-2 before:text-xs">Langsung Lihat Skor</span>
                         </div>
-                        <button className="py-3 px-6 rounded-md transition-colors bg-white text-purple-400 font-semibold hover:bg-purple-900 hover:text-white flex items-center justify-between w-full">
+                        <button className="py-3 px-6 rounded-md transition-colors bg-white text-purple-600 font-semibold hover:bg-purple-900 hover:text-white flex items-center justify-between w-full">
                             <span className='flex items-center'>
                                 <Icon icon="system-uicons:document-stack" className="mr-2" width="32" height="32" />
                                 <span>Download eBook UKOM, Gratis!</span>
