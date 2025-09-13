@@ -1,7 +1,7 @@
 import { Icon } from "@iconify/react";
 export default function Testimoni() {
     return (
-        <section className="w-full h-auto py-20 px-4 flex items-center justify-center" id="reviews">
+        <section className="w-full h-auto py-[100px] px-4 flex items-center justify-center" id="reviews">
             <div className="px-4 max-w-[1300px] mx-auto 2xl:px-0">
                 <h2 className="text-4xl anton mb-12 z-10 text-gray-700 leading-tight text-center">Apa Kata Mereka?</h2>
                 <div data-carousel='{"currentIndex": 0, "loadingClasses": "opacity-0", "slidesQty": { "xs": 1, "sm": 2, "md": 3, "lg": 3 },  "isAutoPlay": true, "speed": 5000 ,"isInfiniteLoop": true }'
@@ -25,7 +25,7 @@ export default function Testimoni() {
                             </div>
                             <div className="carousel-slide bg-white p-6 my-6 rounded-lg shadow-xs flex flex-col items-center text-center">
                                 <img src="/user/IMG20240912.jpg" alt="Testimoni 2" width={50} height={50} className="w-24 h-24 rounded-full object-cover mb-4 border-8 border-gray-200" />
-                                <p className="mb-4 flex-1 max-w-sm">"Optimal kereeen,, Masyaallah tabarakallah,, metode belajar nya bagus banget,mudah di mengerti, gampang banget untuk di ingat n di fahami 😊😊 <br/>Teman saya yang belum kompeten saya rekomendasikan untuk bimbel di optimal Alhamdulillah katanya enak belajar di bimbel optimal.."</p>
+                                <p className="mb-4 flex-1 max-w-sm">"Optimal kereeen,, Masyaallah tabarakallah,, metode belajar nya bagus banget,mudah di mengerti, gampang banget untuk di ingat n di fahami 😊😊 <br />Teman saya yang belum kompeten saya rekomendasikan untuk bimbel di optimal Alhamdulillah katanya enak belajar di bimbel optimal.."</p>
                                 <h3 className="font-bold capitalize"><span className="text-black/60 ">Payung negeri Pekanbaru</span> - Muliana Sari</h3>
                             </div>
                             <div className="carousel-slide bg-white p-6 my-6 rounded-lg shadow-xs flex flex-col items-center text-center">

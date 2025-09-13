@@ -2,7 +2,7 @@ import { Icon } from "@iconify/react";
 import Image from "next/image";
 export default function Package() {
     return (
-        <section className="w-full h-auto py-12 px-4 max-w-[1300px] mx-auto 2xl:px-0" id="package">
+        <section className="w-full h-auto py-[100px] px-4 max-w-[1300px] mx-auto 2xl:px-0" id="package">
             <header className="relative text-2xl font-extrabold text-center mb-24">
                 <Image src="/stock/underline.png" alt="Underline" width={2000} height={0} className="absolute left-1/2 -translate-x-1/2 top-1 mx-auto h-auto w-1/4 mt-9 z-1" />
                 <h1 className="text-4xl anton mb-4 z-10 text-gray-700 leading-tight">Pilih Paket Belajarmu</h1>

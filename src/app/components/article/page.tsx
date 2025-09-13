@@ -1,8 +1,8 @@
 import Image from "next/image";
 export default function Article() {
     return (
-        <section className="flex flex-col items-center w-full max-w-[1300px] mx-auto my-12 px-4 2xl:px-0" id="articles">
-            <h1 className="max-md:text-2xl text-4xl font-semibold py-12 mt-0">Artikel Kesehatan Terbaru</h1>
+        <section className="flex flex-col items-center w-full max-w-[1300px] mx-auto py-[100px] px-4 2xl:px-0" id="articles">
+            <h1 className="max-md:text-2xl text-4xl font-semibold pb-12 mt-0">Artikel Kesehatan Terbaru</h1>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
                 <div className="relative w-full h-[300px] bg-black max-md:rounded-2xl rounded-4xl">
                     <Image priority={true} src="/images/article-1.png" alt="services" width={6000} height={4000} className="w-full h-full object-cover opacity-70  max-md:rounded-2xl rounded-4xl" />

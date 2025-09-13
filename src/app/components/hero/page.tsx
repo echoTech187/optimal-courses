@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function Header() {
     return (
         <>
-            <section className="relative w-full h-[calc(80vh)] flex items-center justify-center" id="hero">
+            <section className="relative w-full h-[800px] flex items-center justify-center" id="hero">
                 <div className="absolute top-0 left-0 bg-gradient-to-r from-purple-500 to-purple-600 min-h-[95%] w-full -z-0"></div>
                 <div className="flex gap-4 max-w-[1300px] mx-auto px-4 2xl:px-0 w-full z-10">
                     <div className="w-1/2 max-lg:w-full flex flex-col gap-4">

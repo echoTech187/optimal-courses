@@ -1,13 +1,13 @@
 import { Icon } from '@iconify/react';
 
-export default function MenuNavigation({isVisible}: {isVisible?: boolean}) {
+export default function MenuNavigation({ isVisible }: { isVisible?: boolean }) {
     return (
         <>
             <div className="hidden md:block">
                 <nav>
                     <ul className={`flex items-center justify-center gap-4 font-normal ${isVisible ? 'text-black' : 'text-white'}`}>
                         <li className={`relative hover:rounded-md ${isVisible ? 'hover:text-purple-700' : 'hover:bg-purple-900/70 hover:text-white'}  px-4 py-2 cursor-pointer transition-colors`}>
-                            <a href="#services">Layanan</a>
+                            <a href="#package">Layanan</a>
                         </li>
                         <li className={`relative hover:rounded-md ${isVisible ? 'hover:text-purple-700' : 'hover:bg-purple-900/70 hover:text-white'}  px-4 py-2 cursor-pointer transition-colors`}>
                             <a href="#about">Tentang</a>

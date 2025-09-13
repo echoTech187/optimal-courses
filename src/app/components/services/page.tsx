@@ -2,7 +2,7 @@ import { Icon } from "@iconify/react/dist/iconify.js";
 import Image from "next/image";
 export default function Services() {
     return (
-        <section className="w-full h-auto py-12 lg:py-24 px-4 max-w-[1300px] mx-auto 2xl:px-0" id="services">
+        <section className="w-full h-auto py-[100px] lg:py-24 px-4 max-w-[1300px] mx-auto 2xl:px-0" id="services">
             <div className="flex items-start justify-center max-w-4xl mx-auto gap-8">
                 <div className="flex-1 flex items-center justify-center max-sm:hidden">
                     <Image src="/images/apple-iphone-11.png" alt="Apple iPhone 11" className="w-auto h-full" width={0} height={0} sizes="100vw" />

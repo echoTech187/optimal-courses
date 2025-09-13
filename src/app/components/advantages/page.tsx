@@ -1,7 +1,7 @@
 import { Icon } from "@iconify/react";
 export default function Advantage() {
     return (
-        <section className="w-full h-auto py-20 px-4 bg-gray-50 text-black/60  flex items-center justify-center">
+        <section className="w-full h-auto py-[100px] px-4 bg-gray-50 text-black/60  flex items-center justify-center">
             <div className="px-4 max-w-[1300px] mx-auto 2xl:px-0 text-center">
                 <h2 className="text-4xl font-extrabold mb-24 text-gray-700">Mengapa Memilih Optimal?</h2>
                 <div className="px-4 max-w-[1300px] mx-auto 2xl:px-0 text-center">

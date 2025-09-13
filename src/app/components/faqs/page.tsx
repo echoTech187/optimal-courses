@@ -3,7 +3,7 @@ import { Icon } from "@iconify/react";
 export default function Faqs() {
     return (
         <div className="bg-gray-50" id="faqs">
-            <div className="max-w-[1300px] mx-auto px-4 py-16  rounded-lg my-6">
+            <div className="max-w-[1300px] mx-auto px-4 py-[100px]  rounded-lg my-6">
                 <h2 className="text-5xl anton z-10 text-gray-700 leading-tight text-center">FAQs</h2>
                 <p className="text-center text-gray-600 mb-12">Pertanyaan yang sering diajukan tentang Optimal Courses</p>
                 <div className="space-y-6">
