@@ -1,3 +1,4 @@
+'use client';
 import { Icon } from '@iconify/react';
 import Image from 'next/image';
 
@@ -26,7 +27,7 @@ export default function Header() {
                             <button className="py-3 px-6 rounded-md transition-colors bg-yellow-400 text-black text-sm font-semibold hover:bg-blue-100">
                                 Uji Coba Gratis
                             </button>
-                            <button className="py-3 px-6 rounded-md transition-colors bg-yellow-400 text-black text-sm font-semibold hover:bg-blue-100">
+                            <button className="py-3 px-6 rounded-md transition-colors bg-yellow-400 text-black text-sm font-semibold hover:bg-blue-100" onClick={() => document.getElementById('package')?.scrollIntoView({ behavior: 'smooth' })}>
                                 Lihat Paket Tersedia
                             </button>
                             <button className="py-3 px-6 rounded-md transition-colors bg-yellow-400 text-black text-sm font-semibold hover:bg-blue-100">

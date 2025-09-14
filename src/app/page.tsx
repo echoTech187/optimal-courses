@@ -9,9 +9,9 @@ import Services from "./components/services/page";
 import Statistic from "./components/statistic/page";
 import Testimoni from "./components/testimoni/page";
 export default function Home() {
-  
+
   return (
-    <main className="h-full w-full">
+    <main className="h-full w-full dark:bg-gray-800">
       <Hero />
       <Statistic />
       <Banner />

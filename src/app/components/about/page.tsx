@@ -1,6 +1,6 @@
 export default function About() {
     return (
-        <section className="w-full h-auto py-[100px] px-4 flex items-center justify-center bg-gray-50" id="about">
+        <section className="w-full h-auto py-[100px] px-4 flex items-center justify-center bg-gray-50 dark:bg-gray-900" id="about">
             <div className="px-4 max-w-[1300px] gap-12 mx-auto 2xl:px-0 flex items-center max-lg:flex-col lg:flex-row">
                 <div className="flex-1">
                     <h2 className="text-3xl font-bold mb-4">Tentang Optimal Untuk Negeri</h2>
