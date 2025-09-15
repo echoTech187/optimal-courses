@@ -1,3 +1,4 @@
+"use client";
 import { Icon } from "@iconify/react/dist/iconify.js";
 import Image from "next/image";
 export default function Services() {
@@ -21,7 +22,7 @@ export default function Services() {
                             <li className="before:content-['✓'] before:-top-0.5 before:w-5 before:h-5 before:rounded-full before:text-center before:inline-block before:bg-gray-100 before:text-purple-700 before:font-fontawesome before:mr-2"><span className="text-blue-500 font-extrabold">*) GARANSI SAMPAI LULUS</span> </li>
                         </ul>
                     </div>
-                    <button className="mt-8 py-3 px-6 rounded-md transition-colors bg-green-700 dark:hover:text-green-400 text-white text-sm font-semibold hover:bg-transparent hover:text-green-700 border border-transparent hover:border-green-700 flex items-center">
+                    <button onClick={() => window.open('https://wa.link/gkfaqz', '_blank')} className="mt-8 py-3 px-6 rounded-md transition-colors bg-green-700 dark:hover:text-green-400 text-white text-sm font-semibold hover:bg-transparent hover:text-green-700 border border-transparent hover:border-green-700 flex items-center">
                         <Icon icon="tabler:brand-whatsapp" className="mr-2 size-6" width="32" height="32" /> Hubungi Kami
                     </button>
                 </div>
