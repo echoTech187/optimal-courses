@@ -33,7 +33,7 @@ export default function Header() {
                 <Brand isVisible={isVisible} isMobile={isMobile} />
                 <MenuNavigation isVisible={isVisible} />
 
-                <div className="flex space-x-4">
+                <div className=" space-x-4 hidden md:flex">
                     <button className="py-2 px-4 rounded-md transition-colors">
                         Daftar
                     </button>

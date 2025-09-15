@@ -2,7 +2,7 @@ import { Icon } from "@iconify/react";
 
 export default function Statistic() {
     return (
-        <section className="w-full -mt-24 px-4 h-full max-w-[1300px] mx-auto 2xl:px-0" id='stats'>
+        <section className="w-full -mt-12 px-4 h-full max-w-[1300px] mx-auto 2xl:px-0" id='stats'>
             <div data-carousel='{ "loadingClasses": "opacity-0", "slidesQty": { "xs": 1, "sm": 2, "md": 3, "lg": 3, "xl": 4 },  "isAutoPlay": true, "speed": 5000 ,"isInfiniteLoop": true }'
                 data-carousel-initialized='true' className='relative w-full'>
                 <div className='carousel h-full' >
