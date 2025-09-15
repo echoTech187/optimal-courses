@@ -1,5 +1,3 @@
-import { Icon } from '@iconify/react';
-
 export default function MenuNavigation({ isVisible }: { isVisible?: boolean }) {
     return (
         <>
