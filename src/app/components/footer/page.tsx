@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 export default function Footer() {
     return (
-        <section className="bg-[#212e42] text-white py-8 px-4 2xl:px-0">
+        <section className="bg-purple-800 text-white py-8 px-4 2xl:px-0">
             <div className="flex justify-between items-center w-full max-w-[1300px] mx-auto max-sm:px-4 py-8">
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
                     <div className="flex flex-col gap-2">
