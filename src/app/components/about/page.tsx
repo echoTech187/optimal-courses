@@ -16,9 +16,9 @@ export default function About() {
                 </div>
                 <div className="flex-1">
                     <video className="w-full h-auto rounded-2xl shadow-lg border-8 border-white" controls>
-                        <source src="/videos/video.mp4" type="video/mp4" />
-                        <source src="/videos/video.webm" type="video/webm" />
-                        <source src="/videos/video.ogv" type="video/ogg" />
+                        <source src="/videos/video-original.mp4" type="video/mp4" />
+                        <source src="/videos/video-original.webm" type="video/webm" />
+                        <source src="/videos/video-original.ogv" type="video/ogg" />
                     </video>
                 </div>
             </div>

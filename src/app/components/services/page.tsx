@@ -6,7 +6,7 @@ export default function Services() {
         <section className="w-full h-auto py-[100px] lg:py-24 px-4 max-w-[1300px] mx-auto 2xl:px-0" id="services">
             <div className="flex items-start justify-center max-w-4xl mx-auto gap-8">
                 <div className="flex-1 flex items-center justify-center max-sm:hidden">
-                    <Image src="/images/apple-iphone-11.png" alt="Apple iPhone 11" className="w-auto h-full" width={0} height={0} sizes="100vw" />
+                    <Image src="/images/2.png" alt="Apple iPhone 11" className="w-auto h-full" width={0} height={0} sizes="100vw" />
                 </div>
                 <div className="flex-2">
                     <h2 className="text-4xl font-bold mb-4 text-gray-700 dark:text-gray-50 leading-tight">OPTIMAL menyediakan pengalaman belajar persiapan UKOM yang mudah dan menyenangkan untukmu</h2>
