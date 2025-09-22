@@ -5,7 +5,7 @@ const PackageCard = ({ packageId, data }: { packageId?: number | null | undefine
     console.log(packageId);
     const imageUrl = data.package === 'Perawat' ? `https://backend.cbtoptimal.id/penyimpanan/paket/${data.photo}` : `https://backend.elearningoptimal.id/penyimpanan/paket/${data.photo}`
     return (
-        <div className="flex flex-col rounded-xl shadow-md bg-gradient-to-r from-[#e7e7e7] to-[#fff] dark:from-[#111] dark:to-[#333] dark:text-gray-50 text-black hover:cursor-pointer hover:shadow-2xl backdrop-blur-md max-w-sm" key={packageId}>
+        <div  onClick={() => window.open('https://elearningoptimal.id/login', '_parent')} className="flex flex-col rounded-xl shadow-md bg-gradient-to-r from-[#e7e7e7] to-[#fff] dark:from-[#111] dark:to-[#333] dark:text-gray-50 text-black hover:cursor-pointer hover:shadow-2xl backdrop-blur-md max-w-sm" key={packageId}>
             <PackageCardImage url={imageUrl} />
             <PackageCardBody>
                 <PackageCardHeader title={data.title} />
@@ -19,7 +19,7 @@ const PackageCard = ({ packageId, data }: { packageId?: number | null | undefine
                     <PackageListFeatureItem data={data.list_7} />
                 </PackageListFeature>
                 <div className="mt-4 border border-dotted border-gray-200 h-[1px]" />
-                <PackageCardFooter redirect={'https://wa.link/gkfaqz'} data={data} />
+                <PackageCardFooter data={data} />
 
             </PackageCardBody>
 
@@ -53,14 +53,17 @@ const PackageListFeatureItem = ({ data }: { data: string }) => {
     )
 }
 
-const PackageCardFooter = ({ redirect, data }: { redirect: string, data: any }) => {
-    return (
-        <div className="flex justify-between items-center px-6 py-4">
-            <span className="text-lg text-gray-700 font-extrabold">{data.price.toLocaleString('id-ID', { style: 'currency', currency: 'IDR' })}</span>
-            <button onClick={() => window.open(redirect, '_blank')} className="w-fit py-2 px-4 rounded-lg transition-colors bg-purple-700 hover:bg-purple-800 dark:bg-black/80 dark:text-purple-400 dark:hover:text-white text-white font-semibold hover:font-semibold text-sm border border-transparent hover:border-purple-800 hover:text-white flex items-center justify-center">
-                Pesan<Icon icon="tabler:arrow-right" className="ml-2 size-6" width="32" height="32" /> 
-            </button>
+const PackageCardFooter = ({ data }: {data: any }) => {
+    return (<>
+        <div className="text-xs border border-dashed border-gray-200 py-2 flex flex-col items-center text-center bg-purple-50 dark:bg-gray-800 dark:text-gray-50 text-black">
+            Gunakan Voucher dibawah ini untuk mendapatkan Diskon 50%
+            <b>OPTIMAL2025</b>
         </div>
+        <div className="flex justify-end items-center px-6 py-4">
+            <span className="text-lg text-gray-700 font-extrabold">{data.price.toLocaleString('id-ID', { style: 'currency', currency: 'IDR' })}</span>
+
+        </div>
+    </>
     )
 }
 

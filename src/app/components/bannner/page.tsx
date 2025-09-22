@@ -6,7 +6,7 @@ export default function Banner() {
                 <div className="p-4 md:p-8 text-center w-full text-white">
                     <h2 className="md:text-xl xl:text-2xl font-bold mb-2">Tingkatkan Kemampuan Anda dengan Optimal!</h2>
                     <p className="max-sm:text-xs text-sm">Bergabunglah dengan ribuan pengguna yang telah sukses melalui platform kami.</p>
-                    <button className="mt-4 py-2 px-4 rounded-md transition-colors bg-yellow-400 text-black text-sm font-semibold hover:bg-blue-100" onClick={() => window.open('https://wa.link/gkfaqz', '_blank')}>
+                    <button className="mt-4 py-2 px-4 rounded-md transition-colors bg-yellow-400 text-black text-sm font-semibold hover:bg-blue-100" onClick={() => window.open('https://wa.link/vqkcki', '_blank')}>
                         Mulai Sekarang
                     </button>
                 </div>
