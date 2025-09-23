@@ -125,8 +125,8 @@ export default function Package() {
                     <h5 className="text-3xl inter font-bold text-center">Bimbel UKOM Optimal</h5>
                     <p className="text-lg inter text-center mb-8 w-1/2 mx-auto">Teman belajar UKOM bagi mahasiswa kebidanan & keperawatan di seluruh Indonesia dengan #GaransiKompeten</p>
                     <div className="w-full flex justify-center items-center gap-8">
-                        <div className="relative shadow rounded w-full max-w-xs p-8 cursor-pointer" onClick={() => window.open('https://vt.tiktok.com/ZSBP85ULB/?page=Mall', '_blank')}>
-                            <Image src="/images/tiktok_shop.png" alt="Bimbel Ukom" width={0} height={0} className="w-full" sizes="100vw" />
+                        <div className="relative shadow rounded w-full max-w-xs p-8 cursor-pointer" onClick={() => window.open('https://tk.tokopedia.com/ZSDxddQY2', '_blank')}>
+                            <Image src="/images/tokopedia.png" alt="Bimbel Ukom" width={0} height={0} className="w-full" sizes="100vw" />
                         </div>
                         <div className="relative shadow rounded w-full max-w-xs p-8 cursor-pointer" onClick={() => window.open('https://id.shp.ee/GXG14J8', '_blank')}>
                             <Image src="/images/shopee.png" alt="Bimbel Ukom" width={0} height={0} className="w-full" sizes="100vw" />
