@@ -32,8 +32,8 @@ export default function Header() {
             <div className="flex items-center justify-start md:justify-between w-full max-w-[1300px] mx-auto px-4 2xl:px-0">
                 <Brand isVisible={isVisible} isMobile={isMobile} />
                 <MenuNavigation isVisible={isVisible} />
-
-                <div className=" space-x-4 hidden md:flex">
+                <span></span>
+                <div className=" space-x-4 hidden">
                     <button className="py-2 px-4 rounded-md transition-colors">
                         Daftar
                     </button>
