@@ -46,7 +46,7 @@ export default function Statistic() {
                                     <Icon icon="mdi:book-open-page-variant-outline" className="w-14 h-14" />
                                 </div>
                                 <div className='flex flex-col items-start p-4 flex-1'>
-                                    <h2 className='text-3xl font-bold w-full '>59</h2>
+                                    <h2 className='text-3xl font-bold w-full '>25</h2>
                                     <p className='w-full'>Kampus MoU</p>
                                 </div>
                             </div>
