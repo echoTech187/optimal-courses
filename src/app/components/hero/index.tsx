@@ -11,7 +11,7 @@ export default function Header() {
                         <div className="carousel-slide relative w-screen h-full rounded-none">
                             <div className="absolute top-0 left-0 h-full w-screen -z-0 ">
                                 <div className="absolute top-0 left-0 bg-gradient-to-r from-purple-500 to-purple-600 min-h-[100%] w-full -z-1"></div>
-                                <Image src="/images/1.png" alt="Hero Image" width={500} height={300} className="mx-auto size-full opacity-30" sizes="100vw" priority={true} placeholder="blur" blurDataURL="https://via.placeholder.com/500x300" />
+                                <Image src="/images/1.png" alt="Hero Image" width={500} height={300} className="mx-auto size-full object-cover opacity-30" sizes="100vw" priority={true} placeholder="blur" blurDataURL="https://via.placeholder.com/500x300" />
                             </div>
                         </div>
                     </div>
