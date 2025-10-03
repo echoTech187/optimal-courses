@@ -2,7 +2,6 @@
 import Image from "next/image";
 import { Icon } from '@iconify/react';
 const PackageCard = ({ packageId, data }: { packageId?: number | null | undefined, data: any }) => {
-    console.log(packageId);
     const imageUrl = data.package === 'Perawat' ? `https://backend.cbtoptimal.id/penyimpanan/paket/${data.photo}` : `https://backend.elearningoptimal.id/penyimpanan/paket/${data.photo}`
     return (
         <div  onClick={() => window.open('https://elearningoptimal.id/login', '_parent')} className="flex flex-col rounded-xl shadow-md bg-gradient-to-r from-[#e7e7e7] to-[#fff] dark:from-[#111] dark:to-[#333] dark:text-gray-50 text-black hover:cursor-pointer hover:shadow-2xl backdrop-blur-md max-w-sm" key={packageId}>
