@@ -17,12 +17,12 @@ export default function About() {
                 </div>
                 <div className="flex-1">
                     <Suspense fallback={<p>Loading video...</p>}>
-                    <video className="w-full h-auto rounded-2xl shadow-lg border-8 border-white" loop autoPlay muted controls preload="none">
-                        <source src="./videos/video-original.mp4" type="video/mp4" />
-                        <source src="./videos/video-original.webm" type="video/webm" />
-                        <source src="./videos/video-original.ogv" type="video/ogg" />
-                        Your browser does not support the video tag.
-                    </video>
+                        <video className="w-full h-auto rounded-2xl shadow-lg border-8 border-white" loop autoPlay muted controls preload="none">
+                            <source src="./videos/video-original.mp4" type="video/mp4" />
+                            <source src="./videos/video-original.webm" type="video/webm" />
+                            <source src="./videos/video-original.ogv" type="video/ogg" />
+                            Your browser does not support the video tag.
+                        </video>
                     </Suspense>
                 </div>
             </div>
