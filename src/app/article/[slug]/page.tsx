@@ -1,4 +1,4 @@
-import Article from "@/app/components/article/page"
+import Article from "@/app/components/article"
 import Image from "next/image"
 
 

@@ -8,9 +8,9 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  allowedDevOrigins: ['local-origin.dev', '*.local-origin.dev'],
   devIndicators: false,
   images: {
-    domains: ['images.unsplash.com', 'lh3.googleusercontent.com', 'drive.google.com', 'firebasestorage.googleapis.com'],
     unoptimized: true,
   },
   turbopack: {

@@ -1,13 +1,13 @@
-import About from "./components/about/page";
-import Advantage from "./components/advantages/page";
-import Article from "./components/article/page";
-import Banner from "./components/bannner/page";
-import Faqs from "./components/faqs/page";
-import Hero from "./components/hero/page";
-import Package from "./components/package/page";
-import Services from "./components/services/page";
-import Statistic from "./components/statistic/page";
-import Testimoni from "./components/testimoni/page";
+import About from "./components/about";
+import Advantage from "./components/advantages";
+import Article from "./components/article";
+import Banner from "./components/banner";
+import Faqs from "./components/faqs";
+import Hero from "./components/hero";
+import Package from "./components/package";
+import Services from "./components/services";
+import Statistic from "./components/statistic";
+import Testimoni from "./components/testimoni";
 export default function Home() {
 
   return (

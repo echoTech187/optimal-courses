@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Encode_Sans_Condensed, Anton, Inter } from "next/font/google";
-import Header from "./components/header/page";
-import Footer from "./components/footer/page";
+import Header from "./components/header";
+import Footer from "./components/footer";
 import "./globals.css";
 import FlyonuiScript from "./components/FlyonuiScript";
 import MobileSidebar from "./components/sidebar/mobile";
@@ -51,9 +51,6 @@ export default function RootLayout({
         <meta name="twitter:title" content="Optimal Untuk Negeri - Platform Kursus Online Terbaik di Indonesia" />
         <meta name="twitter:description" content="Tingkatkan keterampilan Anda dengan kursus berkualitas dari instruktur ahli. Mulai perjalanan belajar Anda hari ini!" />
         <meta name="twitter:image" content="/images/og-image.png" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@400;700&family=Anton&display=swap" rel="stylesheet" />
       </head>
       <body
         className={`${interFont.variable} ${interFont.variable} antialiased`}

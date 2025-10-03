@@ -9,8 +9,6 @@
   },
   "dependencies": {
     "flyonui": "^2.4.0",
-    "jquery": "^3.7.1",
-    "lodash": "^4.17.21",
     "next": "15.5.3",
     "nouislider": "^15.8.1",
     "react": "19.1.0",

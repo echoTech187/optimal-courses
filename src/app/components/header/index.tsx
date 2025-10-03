@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
-import Brand from "../brand/page";
-import MenuNavigation from "../navigation/page";
+import Brand from "../brand";
+import MenuNavigation from "../navigation";
 
 export default function Header() {
     const [isVisible, setIsVisible] = useState(false);
