@@ -10,11 +10,11 @@ export default function MobileSidebar() {
         setIsOpen(!isOpen);
     };
     return (
-        <aside id="mobile-sidebar" className={`fixed top-0 left-0 z-140 md:hidden h-screen overlay [--body-scroll:true] border-base-content/20 overlay-open:translate-x-0 drawer drawer-start sm:overlay-layout-open:translate-x-0 hidden w-full border-e [--auto-close:sm] [--is-layout-affect:true] [--opened:lg] sm:absolute sm:z-0 sm:flex sm:shadow-none lg:[--overlay-backdrop:false] ${isOpen ? 'block' : 'hidden'}`}>
+        <aside id="mobile-sidebar" className={`fixed top-0 left-0 z-140 lg:hidden h-screen overlay [--body-scroll:true] border-base-content/20 overlay-open:translate-x-0 drawer drawer-start sm:overlay-layout-open:translate-x-0 hidden w-full border-e [--auto-close:sm] [--is-layout-affect:true] [--opened:lg] sm:absolute sm:z-0 sm:flex sm:shadow-none lg:[--overlay-backdrop:true] ${isOpen ? 'block' : 'hidden'}`}>
             <div className="drawer-header">
                 <Brand isVisible={true} isMobile={false} />
-                <button className="btn btn-circle btn-sm overlay-close lg:hidden" aria-label="Close" type="button" onClick={handleCloseSidebar}>
-                    <Icon icon="mdi:close" width="24" height="24" />
+                <button className=" bg-transparent text-black border-none rounded-full hover:rounded-full overlay-close lg:hidden" aria-label="Close" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="mobile-sidebar" data-overlay="#mobile-sidebar">
+                    <Icon icon="mdi:close" width="18" height="18" />
                 </button>
             </div>
             <div className="drawer-body px-2 h-full">
