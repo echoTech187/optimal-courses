@@ -113,7 +113,6 @@ export default function Package() {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         {
                             allPackage.map((data: any, index: number) => {
-                                console.log(data);
                                 return (
                                     <PackageCard key={index} data={data} />
                                 )
