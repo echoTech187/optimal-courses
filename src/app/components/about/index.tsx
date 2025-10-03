@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 export default function About() {
     return (
         <section className="w-full h-auto py-[100px] px-4 flex items-center justify-center bg-gray-50 dark:bg-gray-900" id="about">
@@ -15,11 +16,14 @@ export default function About() {
                     </p>
                 </div>
                 <div className="flex-1">
+                    <Suspense fallback={<p>Loading video...</p>}>
                     <video className="w-full h-auto rounded-2xl shadow-lg border-8 border-white" loop autoPlay muted controls preload="none">
                         <source src="./videos/video-original.mp4" type="video/mp4" />
                         <source src="./videos/video-original.webm" type="video/webm" />
                         <source src="./videos/video-original.ogv" type="video/ogg" />
+                        Your browser does not support the video tag.
                     </video>
+                    </Suspense>
                 </div>
             </div>
         </section>
